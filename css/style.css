@@ -1,6 +1,57 @@
-body{
+body{ 
+  max-width: 900px;
+  margin: 0 auto;
+
 
 }
+
+header{
+  display: flex;
+  border: 10px dashed transparent;
+  padding: 5px;
+  border-bottom: 10px thick;
+  border-image: url(img/hr-img.png);
+  border-image-repeat: repeat;
+  
+  
+}
+
+#headerRight{
+  justify-content: flex-start;
+
+}
+
+#iconbank1{
+  justify-content: flex-start;
+
+}
+
+#iconbank2{
+  justify-content: flex-end;
+ 
+}
+
+
+.instructions{
+  text-indent: 30px;
+  line-height: 1.25em;
+  padding: 15px 0px;
+  font-size: 1.25em;
+}
+
+#ingrediants{
+  display: flex;
+  justify-content: center;
+
+}
+
+#list-left, #list-right{
+  
+  
+}
+
+
+
 
 main{
 
