@@ -1,36 +1,42 @@
 body{ 
   max-width: 900px;
   margin: 0 auto;
-
-
 }
 
 header{
   display: flex;
-  border: 10px dashed transparent;
   padding: 5px;
-  border-bottom: 10px thick;
-  border-image: url(img/hr-img.png);
+  border-bottom: 10px solid transparent;
+  border-image-source: url(img/hr-img.png);
   border-image-repeat: repeat;
-  
-  
+}
+#logo{
+  float:left;
+  width: 48px;
+}
+#titletext , #subtitle{
+  padding-left: 50px;
+
+}
+#titletext{
+  font-size: 2em;
 }
 
 #headerRight{
-  justify-content: flex-start;
-
+  display:inherit;
+  margin-left: 390px;
 }
 
 #iconbank1{
-  justify-content: flex-start;
-
-}
-
-#iconbank2{
-  justify-content: flex-end;
+  display: inline;
+  margin-right:15px;
  
 }
-
+#iconbank2{
+  justify-content: flex-end;
+  margin-left:  15 px;
+ 
+}
 
 .instructions{
   text-indent: 30px;
@@ -42,17 +48,5 @@ header{
 #ingrediants{
   display: flex;
   justify-content: center;
-
-}
-
-#list-left, #list-right{
-  
-  
-}
-
-
-
-
-main{
 
 }
